@@ -4,15 +4,15 @@ const CONFIG = {
     introDesc: `mừng đảng mừng xuân
     chúc mừng sinh nhật Nguyên `,
     btnIntro: 'party',
-    title: 'v:',
-    desc: ' vui không ',
-    btnYes: 'có',
-    btnNo: 'Không ',
+    title: 'the dark night',
+    desc: ' sinh nhật vui vẻ nhé ',
+    btnYes: ' có vui',
+    btnNo: 'Không  vui ',
     question: 'like dark night và share nhé',
-    btnReply: 'Gửi cho Hào đây',
+    btnReply: 'Gửi',
     reply: 'okee anhhhh',
-    mess: 'v:',
+    mess: 'chủ shop',
     messDesc: 'sinh nhật vui vẻ.',
-    btnAccept: 'nhớ share nha',
-    messLink: 'https://facebook.com/hoangcam99' //link mess của các bạn. VD: https://m.me/nam.nodemy
+    btnAccept: 'end',
+    messLink: 'https://www.facebook.com/profile.php?id=100009973713795' //link mess của các bạn. VD: https://m.me/nam.nodemy
 }
