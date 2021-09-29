@@ -14,5 +14,5 @@ const CONFIG = {
     mess: 'v:',
     messDesc: 'sinh nhật vui vẻ.',
     btnAccept: 'nhớ share nha',
-    messLink: 'https://github.com/haoday/Confess-nguyen' //link mess của các bạn. VD: https://m.me/nam.nodemy
+    messLink: 'https://facebook.com/hoangcam99' //link mess của các bạn. VD: https://m.me/nam.nodemy
 }
