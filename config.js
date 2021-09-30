@@ -8,7 +8,6 @@ const CONFIG = {
     desc: ' Thảo Nguyên rất đáng yêu đúng không v: ',
     btnYes: ' không',
     btnNo: ' đúng vậy ',
-    
     question: 'like dark night và share nhé',
     btnReply: 'Gửi',
     reply: 'okee anhhhh',
