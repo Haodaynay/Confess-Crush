@@ -16,7 +16,7 @@ const CONFIG = {
     btnReply: 'Gửi',
     reply: 'okee anhhhh',
     mess: 'chủ shop',
-    messDesc: 'sinh nhật vui vẻ.',
+    messDesc: 'sinh nhật vui v ẻ.',
     btnAccept: 'end',
     messLink: 'https://www.facebook.com/profile.php?id=100009973713795' //link mess của các bạn. VD: https://m.me/nam.nodemy
 }
