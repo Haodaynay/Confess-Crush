@@ -12,7 +12,7 @@ const CONFIG = {
     reply: ' vâng em xin loi. em trả anh ngay ạ',
     mess: 'Phương Loan',
     messDesc: 'sinh nhật vui vẻ
-     theo dõi dark night nhé.',
+     theo dõi dark night  nhé v:',
     btnAccept: 'end',
     messLink: 'https://www.facebook.com/messages/t/100030070723774' //link mess của các bạn. VD: https://m.me/nam.nodemy
 }
