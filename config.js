@@ -5,7 +5,7 @@ const CONFIG = {
     btnIntro: 'tiếp theo',
     title: ' dark night',
     desc: ' bro có cảm thấy có lỗi với tôi không?? ',
-    btnYes: 'có.emxinlỗianhạ',
+    btnYes: 'emxinlỗianhạ',
     btnNo: ' không ',
     question: ' xin lỗi nhanh lên',
     btnReply: 'Gửi',
