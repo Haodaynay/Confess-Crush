@@ -1,6 +1,6 @@
 const CONFIG = {
     titleWeb: "Tiêu đề web",
-    introTitle: 'yangho Gia Lai',
+    introTitle: 'yangho GiaLai',
     introDesc: `chào Vũ Hậu `,
     btnIntro: 'tiếp',
     title: ' dark night',
