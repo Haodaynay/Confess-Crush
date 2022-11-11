@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
  <HEAD>
-  <TITLE> ok </TITLE>
+  <TITLE> mylove </TITLE>
   <META NAME="Generator" CONTENT="EditPlus">
   <META NAME="Author" CONTENT="">
   <META NAME="Keywords" CONTENT="">
@@ -20,13 +20,26 @@ canvas {
   height: 100%;
 }
   </style>
+   <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/spinload.css">
+    <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Pacifico" />
+   
+</head>
+   <body onload="loadSound()">
  </HEAD>
  <BODY>
   <div class="box">
     <canvas id="pinkboard"></canvas>
    
   </div>
-    <h1 class="name">trang xinhh</h1>
+    <h1 class="name">Vũ Hậu  </h1>
 <script>
 var settings = {
   particles: {
@@ -207,7 +220,7 @@ var ParticlePool = (function() {
     }
     context.closePath();
     // create the fill
-    context.fillStyle = '#FF9900';
+    context.fillStyle = '#FFFF33';
     context.fill();
     // create the image
     var image = new Image();
@@ -255,5 +268,12 @@ var ParticlePool = (function() {
   }, 10);
 })(document.getElementById('pinkboard'));
   </script>
+  
+   <script>
+        function loadSound() {
+            var audio = new Audio('sound/sound.mp3');
+            audio.play();
+        }
+    </script>
  </BODY>
 </HTML>
