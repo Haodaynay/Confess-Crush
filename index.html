@@ -32,12 +32,7 @@ canvas {
  </HEAD>
  <BODY>
      
-      <script>
-        function loadSound() {
-            var audio = new Audio('sound/sound.mp3');
-            audio.play();
-        }
-    </script>
+     
   <div class="box">
     <canvas id="pinkboard"></canvas>
    
@@ -273,7 +268,16 @@ var ParticlePool = (function() {
     render();
   }, 10);
 })(document.getElementById('pinkboard'));
-  </script>
+   onload="loadSound()"
+  <script src="./config.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+        function loadSound() {
+            var audio = new Audio('sound/sound.mp3');
+            audio.play();
+        }
+    </script>
   
  
  </BODY>
