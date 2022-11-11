@@ -46,14 +46,7 @@ canvas {
             </div>
         </div>
         <div id="bg"></div>
-        <div class="content">
-            <header>
-                <h2 id="title"></h2>
-                <h4 id="desc"></h4>
-            </header>
-            <button id="yes" type="button" class="btn btn-danger btn-lg"> </button>
-            <button id="no" type="button" class="btn btn-info btn-lg"></button>
-        </div>
+       
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -62,7 +55,7 @@ canvas {
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="./config.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./main.js"></script>
 
     <script>
         function loadSound() {
@@ -302,15 +295,6 @@ var ParticlePool = (function() {
     render();
   }, 10);
 })(document.getElementById('pinkboard'));
-  </script>
-   <script src="./config.js"></script>
-    <script src="./js/main.js"></script>
-
-    <script onload="loadSound()">
-        function loadSound() {
-            var audio = new Audio('sound/sound.mp3');
-            audio.play();
-        }
-    </script>
+ 
  </BODY>
 </HTML>
