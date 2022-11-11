@@ -1,15 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-
-
-
 <HTML>
-   
  <HEAD>
-    
-    
-
-   
-
   <TITLE> mylove </TITLE>
   <META NAME="Generator" CONTENT="EditPlus">
   <META NAME="Author" CONTENT="">
@@ -28,18 +19,14 @@ canvas {
   width: 100%;
   height: 100%;
 }
- 
+  </style>
  </HEAD>
- <BODY>
-     
-     
+ <BODY onload="loadSound()">
   <div class="box">
     <canvas id="pinkboard"></canvas>
    
   </div>
-    <h1 class="name">Vũ Hậu  </h1>
-    </style>
- 
+    <h1 class="name">Vũ Hậu</h1>
 <script>
 var settings = {
   particles: {
@@ -50,7 +37,6 @@ var settings = {
     size:      8, // particle size in pixels
   },
 };
-  
 /*
  */
 (function(){var b=0;var c=["ms","moz","webkit","o"];for(var a=0;a<c.length&&!window.requestAnimationFrame;++a){window.requestAnimationFrame=window[c[a]+"RequestAnimationFrame"];window.cancelAnimationFrame=window[c[a]+"CancelAnimationFrame"]||window[c[a]+"CancelRequestAnimationFrame"]}if(!window.requestAnimationFrame){window.requestAnimationFrame=function(h,e){var d=new Date().getTime();var f=Math.max(0,16-(d-b));var g=window.setTimeout(function(){h(d+f)},f);b=d+f;return g}}if(!window.cancelAnimationFrame){window.cancelAnimationFrame=function(d){clearTimeout(d)}}}());
@@ -221,7 +207,7 @@ var ParticlePool = (function() {
     }
     context.closePath();
     // create the fill
-    context.fillStyle = '#FFFF33';
+    context.fillStyle = '#FF9900';
     context.fill();
     // create the image
     var image = new Image();
@@ -268,17 +254,12 @@ var ParticlePool = (function() {
     render();
   }, 10);
 })(document.getElementById('pinkboard'));
-   onload="loadSound()"
-  <script src="./config.js"></script>
-    <script src="./js/main.js"></script>
-
-    <script>
+  </script>
+     <script>
         function loadSound() {
             var audio = new Audio('sound/sound.mp3');
             audio.play();
         }
     </script>
-  
- 
  </BODY>
 </HTML>
