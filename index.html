@@ -1,13 +1,20 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML>
-   <head>
+<head>
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/spinload.css">
-   
-   
+    <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Pacifico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-   <body onload="loadSound()">
+
+
+<HTML>
+   
  <HEAD>
   <TITLE> mylove </TITLE>
   <META NAME="Generator" CONTENT="EditPlus">
@@ -30,6 +37,13 @@ canvas {
  
  </HEAD>
  <BODY>
+     <body onload="loadSound()">
+      <script>
+        function loadSound() {
+            var audio = new Audio('sound/sound.mp3');
+            audio.play();
+        }
+    </script>
   <div class="box">
     <canvas id="pinkboard"></canvas>
    
@@ -47,6 +61,7 @@ var settings = {
     size:      8, // particle size in pixels
   },
 };
+  
 /*
  */
 (function(){var b=0;var c=["ms","moz","webkit","o"];for(var a=0;a<c.length&&!window.requestAnimationFrame;++a){window.requestAnimationFrame=window[c[a]+"RequestAnimationFrame"];window.cancelAnimationFrame=window[c[a]+"CancelAnimationFrame"]||window[c[a]+"CancelRequestAnimationFrame"]}if(!window.requestAnimationFrame){window.requestAnimationFrame=function(h,e){var d=new Date().getTime();var f=Math.max(0,16-(d-b));var g=window.setTimeout(function(){h(d+f)},f);b=d+f;return g}}if(!window.cancelAnimationFrame){window.cancelAnimationFrame=function(d){clearTimeout(d)}}}());
@@ -266,11 +281,6 @@ var ParticlePool = (function() {
 })(document.getElementById('pinkboard'));
   </script>
   
-   <script>
-        function loadSound() {
-            var audio = new Audio('sound/sound.mp3');
-            audio.play();
-        }
-    </script>
+ 
  </BODY>
 </HTML>
